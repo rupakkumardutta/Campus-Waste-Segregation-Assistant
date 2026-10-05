@@ -1,0 +1,24 @@
+{
+    "model": "MobileNetV2",
+    "input_size": [
+        224,
+        224
+    ],
+    "num_classes": 6,
+    "classes": [
+        "cardboard",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "trash"
+    ],
+    "batch_size": 32,
+    "train_images": 1768,
+    "validation_images": 379,
+    "test_images": 380,
+    "stage1_validation_accuracy": 0.8153034448623657,
+    "stage2_validation_accuracy": 0.8416886329650879,
+    "test_accuracy": 0.8315789699554443,
+    "test_loss": 0.4575086236000061
+}
